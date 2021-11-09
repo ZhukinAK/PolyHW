@@ -39,7 +39,7 @@ double cosvec(double x0, double y0, double x, double y)
 int main()
 {
 	ifstream i_file;
-	i_file.open("D:\\in.txt");
+	i_file.open("in.txt");
 
 	int a = 0;
 
