@@ -76,7 +76,7 @@ int main()
 			if (pos == 0)
 			{
 				
-				if (csl > cosvec(x0,y0,x,y))
+				if (csl >= cosvec(x0,y0,x,y))
 				{
 					csl = cosvec(x0, y0,x,y);
 					leftx = x;
@@ -86,7 +86,7 @@ int main()
 			else
 			{
 				
-				if (csr > cosvec(x0, y0, x, y))
+				if (csr >= cosvec(x0, y0, x, y))
 				{
 					csr = cosvec(x0, y0, x, y);
 					rightx = x;
