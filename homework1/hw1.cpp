@@ -30,9 +30,9 @@ double take_y(string str) {
 	return 0;
 }
 
-double cosvec(double x0, double y0, double x, double y)
+float cosvec(double x0, double y0, double x, double y)
 {
-	double cosvector = (x * x0 + y0 * y) / sqrt((x0 * x0 + y0 * y0) * (x * x + y * y));
+	float cosvector = (x * x0 + y0 * y) / sqrt((x0 * x0 + y0 * y0) * (x * x + y * y));
 	return cosvector;
 }
 
