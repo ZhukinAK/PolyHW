@@ -88,7 +88,7 @@ int main(int argc, char** argv)
 		}
 		else
 		{
-			if(str.length()>1){
+			if(str.length()>2){
             b = str.find(" ");
 			X.push_back(stod(str.substr(0, b)));
 			H.push_back(stod(str.substr(b + 1, str.length())));
