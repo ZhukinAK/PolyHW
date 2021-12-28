@@ -58,6 +58,7 @@ int main(int argc, char** argv)
 	if (argc < 2 || argc > 2) {
 		cout << "аргументов нет или их больше чем мы ожидаем" << endl;
 	}
+	else{
 	ifstream i_file;
 	i_file.open(argv[1]);
 	int a = 0;
@@ -104,4 +105,5 @@ int main(int argc, char** argv)
 	oblast=def_oblast(x, X);
 	cout << oblast;
 	return 0;
+}
 }
